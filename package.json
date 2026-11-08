@@ -1,0 +1,39 @@
+{
+  "name": "recyclefind",
+  "version": "0.1.0",
+  "description": "Find recycling centers, scrap yards, and recycling calculators from your terminal with RecycleFind.",
+  "keywords": [
+    "recycling",
+    "recycling-centers",
+    "scrap-yard",
+    "scrap-metal",
+    "e-waste",
+    "junk-car",
+    "sustainability",
+    "environment",
+    "cli",
+    "recyclefind"
+  ],
+  "homepage": "https://recyclefind.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddison12345/recyclefind-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eddison12345/recyclefind-cli/issues"
+  },
+  "license": "MIT",
+  "author": "RecycleFind (https://recyclefind.com)",
+  "type": "module",
+  "bin": {
+    "recyclefind": "bin/recyclefind.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.3"
+  }
+}
