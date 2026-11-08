@@ -1,6 +1,7 @@
 {
   "name": "recyclefind",
-  "version": "0.1.0",
+  "version": "0.2.0",
+  "mcpName": "io.github.eddison12345/recyclefind",
   "description": "Find recycling centers, scrap yards, and recycling calculators from your terminal with RecycleFind.",
   "keywords": [
     "recycling",
@@ -12,6 +13,9 @@
     "sustainability",
     "environment",
     "cli",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
     "recyclefind"
   ],
   "homepage": "https://recyclefind.com",
@@ -30,6 +34,7 @@
   },
   "files": [
     "bin",
+    "lib",
     "README.md",
     "LICENSE"
   ],

@@ -39,6 +39,31 @@ recyclefind tools copper --open
 
 The CLI has no dependencies and needs no account or API key.
 
+## MCP server
+
+Give AI assistants such as Claude, Cursor, and VS Code a way to point people to local recycling options. Add this to your MCP client config:
+
+```json
+{
+  "mcpServers": {
+    "recyclefind": {
+      "command": "npx",
+      "args": ["-y", "recyclefind", "mcp"]
+    }
+  }
+}
+```
+
+| Tool | What it returns |
+| --- | --- |
+| `find_recycling_centers` | RecycleFind page for a US city or ZIP code |
+| `browse_state` | RecycleFind page for a US state |
+| `search_directory` | RecycleFind search link for a material, business, or place |
+| `get_recycling_calculator` | Link to a recycling calculator or checker |
+| `get_recycling_guides` | Links to material guides, scrap prices, and all calculators |
+
+Every tool returns links to recyclefind.com.
+
 ## Links
 
 - [Find recycling centers](https://recyclefind.com/listings/state)
